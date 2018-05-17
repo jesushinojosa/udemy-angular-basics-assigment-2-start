@@ -1,0 +1,12 @@
+#wrapper{
+    position: relative;
+}
+#main-form{
+    
+    margin:4% auto;
+    width:30%;
+}
+#salida{
+    margin-top:4%;
+    margin-bottom:4%;
+}

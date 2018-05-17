@@ -1,0 +1,24 @@
+<div id="wrapper">
+  <div id="main-form" class="container">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <form action="">
+          <div class="form-group">
+            <label for="text">Username:</label>
+            <input 
+              type="text" 
+              class="form-control" 
+              [(ngModel)]="username" 
+              name="username" 
+              (input)="onInput()">
+  
+          </div>
+          <p id="salida">
+            {{username}}
+          </p>
+          <button class="btn btn-default" [disabled]="disable_button" (click)="onClick()">Reset</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
